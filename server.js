@@ -29,7 +29,7 @@ if(process.env.NODE_ENV==='development'){
 
 
 // Routes to Mount
-app.use('/api/parklista/v1/trip/', trip);
+app.use('/api/zazu/v1/trip/', trip);
 
 // Handling Errors
 app.use(errorHandler);
